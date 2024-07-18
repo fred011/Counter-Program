@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(45deg ,hsla(120, 100%, 25%, 0.809) , hsla(60, 100%, 50%, 0.809), hsla(39, 100%, 50%, 0.803),hsla(0, 100%, 50%, 0.809) , hsla(240, 100%, 50%, 0.829), hwb(275 0% 50% / 0.803), hsla(300, 76%, 72%, 0.665)) no-repeat;
+    background-size: cover;
+    height: 86.2vh;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+#btnContainer{
+    text-align: center;
+}
+
+.container{
+    border-radius: 10px;
+    border: 1px solid hsl(240, 100%, 53%) ;
+    padding: 20px;
+    margin: 100px 400px;
+    background: linear-gradient(45deg , blue, pink, tomato);
+    box-shadow: 0 10px 15px blue, 10px 0 15px tomato;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: antiquewhite;
+    background-color: hsla(240, 62%, 58%, 0.895);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover {
+    background-color: hsl(240, 100%, 53%) ;
+}
